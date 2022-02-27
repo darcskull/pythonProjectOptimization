@@ -8,7 +8,7 @@ def print_fibonacci():
     print("Въведете номер на член от редицата на Фибоначи")
     input1 = int(input())
     start_time = time.time_ns()
-   # print(fibonacci(input1))
+    print(fibonacci(input1))
     end_time = time.time_ns()
     print(end_time-start_time)
     print("")
