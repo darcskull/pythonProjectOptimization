@@ -1,6 +1,7 @@
 import sys
 
 from Function import function
+from GoldenSection import golden_section
 from Scaning import scan
 
 
@@ -15,6 +16,7 @@ def print_fibonacci():
     x_opt = -b/2*a
     f_opt = function(x_opt, par_a, par_b, par_c)
     scan(a, b, max_iteration, tau, par_a, par_b, par_c)
+    golden_section(a, b, max_iteration, tau, par_a, par_b, par_c)
 
 
 
