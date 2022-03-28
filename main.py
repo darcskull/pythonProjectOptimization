@@ -1,40 +1,21 @@
-from FibonacciFunction import fibonacci_function
-from GoldenSection import golden_section
-from FibonacciRecursion import fibonacci
-from FibonacciIterative import fibonacci_iterative
-from FibonacciOptimization import fibonacci_optimization
-import time
+import sys
+
+from Function import function
+from Scaning import scan
 
 
 def print_fibonacci():
-    print("Въведете числова граница:")
-    input_first = int(input())
-    input_second = int(input())
-    print("Golden Section: ")
-    golden_section(input_first, input_second)
-    print("Fibonacci: ")
-    fibonacci_function(input_first, input_second)
+    a = -10
+    b = 45
+    tau = 0.01
+    max_iteration = sys.maxsize
+    par_a = 2
+    par_b = -12
+    par_c = 20
+    x_opt = -b/2*a
+    f_opt = function(x_opt, par_a, par_b, par_c)
+    scan(a, b, max_iteration, tau, par_a, par_b, par_c)
 
-
-# print("Въведете номер на член от редицата на Фибоначи")
-# input1 = int(input())
-# start_time = time.time_ns()
-# print(fibonacci(input1))
-# end_time = time.time_ns()
-# print(end_time-start_time)
-# print("")
-
-# startI_time = time.time_ns()
-# print(fibonacci_iterative(input1))
-# endI_time = time.time_ns()
-# print(endI_time-startI_time)
-# print("")
-
-# startO_time = time.time_ns()
-# print(fibonacci_optimization(input1))
-# endO_time = time.time_ns()
-# print(endO_time-startO_time)
-# print("")
 
 
 if __name__ == '__main__':

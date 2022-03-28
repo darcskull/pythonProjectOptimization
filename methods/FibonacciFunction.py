@@ -1,4 +1,4 @@
-from FibonacciRecursion import fibonacci
+from methods.FibonacciRecursion import fibonacci
 from Function import function
 
 
