@@ -17,7 +17,7 @@ def print_fibonacci():
     par_a = 2
     par_b = -12
     par_c = 20
-    x_opt = -b/2*a
+    x_opt = -b / 2 * a
     f_opt = function(x_opt, par_a, par_b, par_c)
     print("Scan")
     scan(a, b, max_iteration, tau, par_a, par_b, par_c)
@@ -26,9 +26,8 @@ def print_fibonacci():
     print("Dichotomy")
     dichotomy(a, b, max_iteration, tau, par_a, par_b, par_c)
     print("Fibonacci")
-    f_fibonacci = fibonacci_iterative(cd+1)
+    f_fibonacci = fibonacci_iterative(cd + 1)
     fibonacci(a, b, max_iteration, tau, cd, f_fibonacci, par_a, par_b, par_c)
-
 
 
 if __name__ == '__main__':
