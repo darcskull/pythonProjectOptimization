@@ -32,7 +32,7 @@ def golden_section(a, b, m_it, tau, f_par_a, f_par_b, f_par_c):
         else:
             if f3 < f2:
                 xm = x3
-                b = x2
+                a = x2
                 x2 = x3
                 x3 = a + t2 * (b - a)
                 fm = f3
