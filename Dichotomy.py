@@ -51,6 +51,6 @@ def dichotomy(a, b, m_it, tau, f_par_a, f_par_b, f_par_c):
         xm = xi[index]
         iterate = dx
 
-    print("Xm = " + str(xm) + " Fm = " + str(fm) + " Iterator = " + str(iterator) +
+    print("Xmin = " + str(xm) + " Fmin = " + str(fm) + " Iterator = " + str(iterator) +
           " Tau = " + str(tau) + " C = " + str(c))
 

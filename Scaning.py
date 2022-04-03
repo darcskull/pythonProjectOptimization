@@ -17,5 +17,5 @@ def scan(a, b, m_it, tau, f_par_a, f_par_b, f_par_c):
         x = x + tau
         iterate = x
 
-    print("Xm = " + str(xm) + " Fm = " + str(fm) + " Iterator = " + str(iterator) +
+    print("Xmin = " + str(xm) + " Fmin = " + str(fm) + " Iterator = " + str(iterator) +
           " Tau = " + str(tau) + " C = " + str(c))

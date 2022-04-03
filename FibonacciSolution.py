@@ -36,5 +36,5 @@ def fibonacci(a, b, m_it, tau, c, f, f_par_a, f_par_b, f_par_c):
                 else:
                     tau_l = - tau_l
 
-    print("Xm = " + str(xm) + " Fm = " + str(fm) + " Tau = " + str(tau) + " C = " + str(c) +
+    print("Xmin = " + str(xm) + " Fmin = " + str(fm) + " Tau = " + str(tau) + " Fib_count = " + str(c) +
           " Fibonacci " + str(f))

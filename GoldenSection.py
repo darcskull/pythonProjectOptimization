@@ -56,5 +56,5 @@ def golden_section(a, b, m_it, tau, f_par_a, f_par_b, f_par_c):
 
         iterate = t2 * (b - a)
 
-    print("Xm = " + str(xm) + " Fm = " + str(fm) + " Iterator = " + str(iterator) +
+    print("Xmin = " + str(xm) + " Fmin = " + str(fm) + " Iterator = " + str(iterator) +
           " Tau = " + str(tau) + " C = " + str(c))
